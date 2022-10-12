@@ -9,7 +9,7 @@
     <actions>
         <action id="io.snappify.open"
                 class="io.snappify.OpenAction"
-                text="Open in snappify ✨" description="Open the selected code directly in snappify.io">
+                text="Open in Snappify ✨" description="Open the selected code directly in snappify.io">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="$SearchWeb"/>
         </action>
     </actions>
