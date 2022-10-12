@@ -12,7 +12,7 @@ import java.net.URLEncoder
 class OpenAction : AnAction() {
 
     companion object {
-        const val SNAPPIFY_URL = "http://localhost:3000" // "https://snappify.io"
+        const val SNAPPIFY_URL = "https://snappify.io"
     }
 
     override fun actionPerformed(event: AnActionEvent) {
