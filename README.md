@@ -10,7 +10,13 @@
 <!-- Plugin description -->
 snappify is the place for beautiful code snippets. Easily explain your code and share your knowledge with the rest of the world.
 
-Using this plugin it's even simpler to create stunning images of your code directly from your JetBrains IntellIJ IDE.
+## Usage
+
+Just select the desired code right in your IntelliJ Editor and right-click -> choose "Open in Snappify ✨" in the context menu.
+
+This will lead you directly to snappify where a new snap is being created using the code you've selected.
+
+Afterwards you can use the snappify Editor to edit the snap to your wishes.
 <!-- Plugin description end -->
 
 ## Installation
