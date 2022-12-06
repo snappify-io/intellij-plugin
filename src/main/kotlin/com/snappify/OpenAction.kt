@@ -1,4 +1,4 @@
-package io.snappify
+package com.snappify
 
 import com.intellij.ide.BrowserUtil
 import com.intellij.openapi.actionSystem.AnAction
@@ -12,7 +12,7 @@ import java.net.URLEncoder
 class OpenAction : AnAction() {
 
     companion object {
-        const val SNAPPIFY_URL = "https://snappify.io"
+        const val SNAPPIFY_URL = "https://snappify.com"
     }
 
     override fun actionPerformed(event: AnActionEvent) {
