@@ -1,4 +1,4 @@
-package com.snappify
+package io.snappify
 
 import com.intellij.ide.BrowserUtil
 import com.intellij.openapi.actionSystem.AnAction

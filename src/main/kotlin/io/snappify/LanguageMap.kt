@@ -1,4 +1,4 @@
-package com.snappify
+package io.snappify
 
 object LanguageMap {
     private const val C = "c"

@@ -1,14 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.snappify</id>
+    <id>io.snappify</id>
     <name>snappify</name>
     <vendor email="info@snappify.com" url="https://snappify.com/">snappify</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <actions>
-        <action id="com.snappify.open"
-                class="com.snappify.OpenAction"
+        <action id="io.snappify.open"
+                class="io.snappify.OpenAction"
                 text="Open in Snappify ✨" description="Open the selected code directly in snappify.com">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="$SearchWeb"/>
         </action>
