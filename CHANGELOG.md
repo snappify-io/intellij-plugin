@@ -2,7 +2,7 @@
 
 # snappify IntelliJ Plugin Changelog
 
-## [1.1.0]
+## [Unreleased]
 
 - Supporting newer IntelliJ Versions.
 
