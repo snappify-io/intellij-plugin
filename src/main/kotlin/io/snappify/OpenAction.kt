@@ -1,10 +1,7 @@
 package io.snappify
 
 import com.intellij.ide.BrowserUtil
-import com.intellij.openapi.actionSystem.AnAction
-import com.intellij.openapi.actionSystem.AnActionEvent
-import com.intellij.openapi.actionSystem.CommonDataKeys
-import com.intellij.openapi.actionSystem.PlatformDataKeys
+import com.intellij.openapi.actionSystem.*
 import com.intellij.openapi.ide.CopyPasteManager
 import java.awt.datatransfer.DataFlavor
 import java.net.URLEncoder
@@ -31,6 +28,10 @@ class OpenAction : AnAction() {
                 BrowserUtil.browse(it)
             }
         }
+    }
+
+    override fun getActionUpdateThread(): ActionUpdateThread {
+        return ActionUpdateThread.BGT
     }
 
     fun openInSnappify(contents: String?, fileName: String, extension: String?, browse: (url: String) -> Unit) {

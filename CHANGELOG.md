@@ -2,6 +2,14 @@
 
 # snappify IntelliJ Plugin Changelog
 
+## [1.1.0]
+
+- Supporting newer IntelliJ Versions.
+
+## [1.0.1]
+
+- Increased IntelliJ Version Compatibility Range.
+
 ## [1.0.0]
 
 - We migrated our domain from snappify.io to snappify.com. This version of the plugin updates all URLs accordingly.
